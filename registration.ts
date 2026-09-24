@@ -27,8 +27,12 @@ function printCourse(courseIndex: number): void {
 addCourse("Object-Oriented Programming", 30);
 addCourse("Databases", 40);
 
+capacities[0] = -100;
+
 enroll(0, "Awa");
 enroll(0, "Mamadou");
+enroll(0, "Ibrahima");
+
 enroll(1, "Fatou");
 
 printCourse(0);
