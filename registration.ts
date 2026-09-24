@@ -33,7 +33,3 @@ enroll(1, "Fatou");
 
 printCourse(0);
 printCourse(1);
-
-courseNames.push("Computer Networks");
-enroll(2, "Ibrahima");
-printCourse(2);
