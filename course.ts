@@ -46,13 +46,15 @@ databases.enroll("Fatou");
 console.log(oop.enrolledStudents);
 console.log(databases.enrolledStudents);
 
-console.log(oop.enroll("Awa")); // false — already enrolled
+console.log(oop.enroll("Awa")); 
 
 oop.closeRegistration();
 
-console.log(oop.enroll("Ousmane")); // false — registration closed
+console.log(oop.enroll("Ousmane")); 
 
-console.log(oop.withdraw("Mamadou")); // true
-console.log(oop.withdraw("Mamadou")); // false — already withdrawn
+console.log(oop.withdraw("Mamadou")); 
+console.log(oop.withdraw("Mamadou")); 
 
 console.log(oop.enrolledStudents);
+
+oop.capacity = -100;
